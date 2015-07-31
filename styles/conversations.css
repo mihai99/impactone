@@ -1,0 +1,68 @@
+#contact {
+  border-bottom: 2px solid black;
+  height: 40px;
+    background: #f6f6f6;
+}
+#contact:hover {
+
+    background: blue;
+}
+#conversations {
+  position: fixed;
+ bottom:0;
+  width: 80%;
+  height: 210px;
+ 
+  
+}
+#contact-name {
+  position: relative;
+  margin-top: -32.5px;
+  margin-left: 44px;
+
+  font-size: 15px;
+}
+#contact-picture {
+  height: 40px;
+  width: 40px;
+}
+.conv
+{  pointer-events: all;
+
+    float: right;
+    background: bisque;
+      width: 19%;
+    font-size: 15px;
+    height: 210px;
+    margin-right: 5px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.conv-type {
+  background-color: white;
+  padding: 0;
+  padding: 0;
+  margin-top: 0px;
+  margin-left: -2px;
+  width: 100%;
+  height: 25px;
+}
+
+ #conv-body {
+  height: 160px;
+  border-bottom: 1px solid;
+  overflow-y: scroll;
+
+}
+#conv-name
+{    height: 20px;
+  background: brown;
+}
+  #conv-close
+  {margin-top: -19px;
+  margin-left: 88%;
+  background: blanchedalmond;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid;
+  display:block;}

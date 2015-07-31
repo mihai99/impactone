@@ -1,0 +1,110 @@
+
+#person-games {
+  font-size: 20px;
+  position: relative;
+  margin-left: 60px;
+}
+#person {
+  height: 100%;
+  color:black;
+  border-bottom:2px solid black;
+}
+#person-name {
+  margin-left: 60px;
+  font-size: 20px;
+}
+#person-picture {
+  width: 50px;
+  position: absolute;
+  height: 50px;
+}
+#person:hover
+{
+	background:blue;
+}
+
+#event
+{
+  margin-left: 15%;
+  width: 70%;
+  margin-top: 45px;
+  position: relative;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  zindex: -100;
+  background: transparent;
+}
+
+#event-about {
+  width: 200px;
+  width: 30%;
+  font-size: 19px;
+  text-align: start;
+  font-family: cursive;
+  height: 170px;
+  background: rgba(246, 246, 246, 0.32);
+  border-top-left-radius: 10px;
+  position: absolute;
+}
+#event-cover {
+ 
+  width:100%;
+  height: 300px;
+}
+#part-name {
+  margin-left: 55px;
+  margin-top: 10px;
+}
+#part {
+  height: 50px;
+  border: 2px solid #C3C0C0;
+  text-align: left;
+  margin-top: 10px;
+}
+#Profile{
+    margin-left: 15%;
+    width: 70%;
+    margin-top: 45px;
+    position: relative;
+    border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	border-top-right-radius:20px;
+	zindex:-100;
+	background:transparent;
+}
+#profile-actions
+{
+    width: 30%;
+   background: #f6f6f6;
+  border-radius: 10px;
+}
+#profile-recent-pictures
+{
+    width: 30%;
+ background: #f6f6f6;
+  border-radius: 10px;
+    margin-top: 20px;
+    height: 200px;
+	  height: 210px;
+}
+#event-recent-pictures table
+{  background: #f6f6f6;
+    width: 100%;
+    height: 100%;
+}
+#event-recent-pictures table td
+{
+  width: 33%;
+  height: 100px;
+  padding: 0;
+  margin: 0;
+}
+#event-recent-pictures table td img
+{
+  width: 100%;
+  height: 100%;
+}
+
+
+  
